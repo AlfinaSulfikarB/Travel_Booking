@@ -28,68 +28,73 @@
                     </div>
             </nav>
         </header>
+        <div class="bg-img">
+            <div class="frm-cntnr">
+                <div class="container-fluid">
+                    <div>
+                        <form action="action_page.php">
 
-        <div class="container-fluid">
-            <div>
-                <form action="action_page.php">
-
-                    <div class="form-group">
-                        <label for="formEmail">Email address</label>
-                        <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="formName">Full name (As per Passport)</label>
-                        <input type="text" class="form-control" id="formName" placeholder="Enter your Name as in Passport">
-                    </div>
-                    <div class="form-group">
-                        <div class="form-check form-check-inline" >
-                            <label for="Gender">Gender</label>
-                            
-                            <div>
-                                <input type="radio" name="radio-choice" required>Male   </input>
-                                <input type="radio" name="radio-choice" required>Female </input>
-                                <input type="radio" name="radio-choice" required>Other  </input>
-                                
+                            <div class="form-group">
+                                <label for="formEmail">Email address</label>
+                                <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
                             </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="formDeparture">From</label>
-                        <input type="text" class="form-control" id="formDeparture" placeholder="Departure from" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="formArrival">To</label>
-                        <input type="text" class="form-control" id="formArrival" placeholder="Destination" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="formDeparture">From</label>
-                        <input type="text" class="form-control" id="formDeparture" placeholder="Departure from" required>
-                    </div>
-                    <div>
-                        <label for="depDate">Date</label>
-                        <input type="date" id="depDate" name="depDate" required>
-                    </div>
-                    <div>
-                        <label for="NumTicket">Number of ticket required</label>
-                        <input type="text" class="form-control" id="NumTicket" placeholder="Total number of Passengers (if none, enter 0)" required>
-                    </div>
-                    <div>
-                        <label for="NumAdult">Number of Adults</label>
-                        <input type="text" class="form-control" id="NumAdult" placeholder="Number of Adults (if none, enter 0)" required>
-                    </div>
-                    <div>
-                        <label for="NumChild">Number of Adults</label>
-                        <input type="text" class="form-control" id="NumChild" placeholder="Number of Children (if none, enter 0)" required>
-                    </div>
-                    <div class="clearfix">
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <button type="submit" class="signupbtn" onclick="handleClick()">Sign Up</button>
+                            <div class="form-group">
+                                <label for="formName">Full name (As per Passport)</label>
+                                <input type="text" class="form-control" id="formName" placeholder="Enter your Name as in Passport">
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check form-check-inline" >
+                                    <label for="Gender">Gender</label>
+                                    
+                                    <div>
+                                        <input type="radio" name="radio-choice" required>Male   </input>
+                                        <input type="radio" name="radio-choice" required>Female </input>
+                                        <input type="radio" name="radio-choice" required>Other  </input>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="formDeparture">From</label>
+                                <input type="text" class="form-control" id="formDeparture" placeholder="Departure from" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="formArrival">To</label>
+                                <input type="text" class="form-control" id="formArrival" placeholder="Destination" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="formDeparture">From</label>
+                                <input type="text" class="form-control" id="formDeparture" placeholder="Departure from" required>
+                            </div>
+                            <div>
+                                <label for="depDate">Date</label>
+                                <input type="date" id="depDate" name="depDate" required>
+                            </div>
+                            <div>
+                                <label for="NumTicket">Number of ticket required</label>
+                                <input type="text" class="form-control" id="NumTicket" placeholder="Total number of Passengers" required>
+                            </div>
+                            <div>
+                                <label for="NumAdult">Number of Adults</label>
+                                <input type="text" class="form-control" id="NumAdult" placeholder="Number of Adults (if none, enter 0)" required>
+                            </div>
+                            <div>
+                                <label for="NumChild">Number of Adults</label>
+                                <input type="text" class="form-control" id="NumChild" placeholder="Number of Children (if none, enter 0)" required>
+                            </div>
+                            <div class="clearfix">
+                                <button type="button" class="cancelbtn">Cancel</button>
+                                <button type="submit" class="submitbtn" onclick="handleClick()">Submit</button>
+                            </div>
+                            
+                            
+                        </form>
                     </div>
                     
-                    
-                </form>
+                </div>
             </div>
         </div>
+        
 
     </body>
 </html>
